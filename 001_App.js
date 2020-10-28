@@ -17,7 +17,7 @@ Box.prototype.toString = function () {
 
 // метод для проверки равенства объектов
 Box.prototype.equals = function (otherObj) {
-    if ((this.width === otherObj.width && this.height === otherObj.height && this.depth === otherObj.depth) && (this.material === otherObj.material)) {
+    if ((this.width === otherObj.width && this.height === otherObj.height && this.depth === otherObj.depth) && (this.material === otherObj.material )) {
         return true;
     }
     return false;
